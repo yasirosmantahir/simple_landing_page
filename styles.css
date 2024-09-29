@@ -6,10 +6,11 @@ body{
 .container {
     display :flex;
     justify-content:space-between;
-    gap:12px;
+    
     margin-left:10%;
     margin-right:10%;
     flex :1;
+    gap:14px
 
     
 }
@@ -29,18 +30,19 @@ body{
 .text-gray{
     color:gray
 }
+
 .item{
     
-    font-size : 18px ;
+    font-size : 15px ;
     color: #E5E7EB;
-    width: 90%;
-    margin: auto;
-    justify-content: center;
+    align-self: center;
+   
 }
 .item .img{
     width: 130px;
-    height: 180px;
+    height: 150px;
 }
+
 .center{
     width: 130px;
     text-align: center;
@@ -51,6 +53,7 @@ body{
    
     font-size : 28px ;
     color : #F9FAFB ;
+    flex-grow: 1;
 }
 .img{
     width:100%;
@@ -58,4 +61,14 @@ body{
     border-radius: 10px;
     border-color: rgb(76, 125, 189);
     border: 2px;
+}
+button{
+    background-color: #5c5ce6;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.4em;
+
+    color: white;
 }
